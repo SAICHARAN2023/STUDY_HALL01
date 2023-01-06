@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-06T21:30:41 IST" name="Suite" finished-at="2023-01-06T21:31:24 IST" duration-ms="43185">
+    <groups>
+    </groups>
+    <test started-at="2023-01-06T21:30:41 IST" name="Test" finished-at="2023-01-06T21:31:24 IST" duration-ms="43185">
+      <class name="STUDY_TC.DELETEDESKPAGE">
+        <test-method is-config="true" signature="setup()[pri:0, instance:STUDY_TC.DELETEDESKPAGE@537f60bf]" started-at="2023-01-06T21:31:21 IST" name="setup" finished-at="2023-01-06T21:31:22 IST" duration-ms="1416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="login()[pri:0, instance:STUDY_TC.DELETEDESKPAGE@537f60bf]" started-at="2023-01-06T21:31:22 IST" name="login" finished-at="2023-01-06T21:31:23 IST" duration-ms="1074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="DELETEDESK()[pri:0, instance:STUDY_TC.DELETEDESKPAGE@537f60bf]" started-at="2023-01-06T21:31:23 IST" name="DELETEDESK" finished-at="2023-01-06T21:31:24 IST" duration-ms="414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DELETEDESK -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:STUDY_TC.DELETEDESKPAGE@537f60bf]" started-at="2023-01-06T21:31:24 IST" name="logout" finished-at="2023-01-06T21:31:24 IST" duration-ms="379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:STUDY_TC.DELETEDESKPAGE@537f60bf]" started-at="2023-01-06T21:31:24 IST" name="Teardown" finished-at="2023-01-06T21:31:24 IST" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- STUDY_TC.DELETEDESKPAGE -->
+      <class name="STUDY_TC.VIEWSTUDENTPAGE">
+        <test-method is-config="true" signature="setup()[pri:0, instance:STUDY_TC.VIEWSTUDENTPAGE@7b36aa0c]" started-at="2023-01-06T21:31:07 IST" name="setup" finished-at="2023-01-06T21:31:09 IST" duration-ms="2144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="login()[pri:0, instance:STUDY_TC.VIEWSTUDENTPAGE@7b36aa0c]" started-at="2023-01-06T21:31:09 IST" name="login" finished-at="2023-01-06T21:31:12 IST" duration-ms="3345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="VIEW_STUDENT()[pri:0, instance:STUDY_TC.VIEWSTUDENTPAGE@7b36aa0c]" started-at="2023-01-06T21:31:12 IST" name="VIEW_STUDENT" finished-at="2023-01-06T21:31:17 IST" duration-ms="4665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VIEW_STUDENT -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:STUDY_TC.VIEWSTUDENTPAGE@7b36aa0c]" started-at="2023-01-06T21:31:17 IST" name="logout" finished-at="2023-01-06T21:31:17 IST" duration-ms="425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:STUDY_TC.VIEWSTUDENTPAGE@7b36aa0c]" started-at="2023-01-06T21:31:17 IST" name="Teardown" finished-at="2023-01-06T21:31:17 IST" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- STUDY_TC.VIEWSTUDENTPAGE -->
+      <class name="STUDY_TC.ADDDESKPAGE">
+        <test-method is-config="true" signature="setup()[pri:0, instance:STUDY_TC.ADDDESKPAGE@3012646b]" started-at="2023-01-06T21:30:52 IST" name="setup" finished-at="2023-01-06T21:30:53 IST" duration-ms="1506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="login()[pri:0, instance:STUDY_TC.ADDDESKPAGE@3012646b]" started-at="2023-01-06T21:30:53 IST" name="login" finished-at="2023-01-06T21:30:55 IST" duration-ms="1232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="ADD_DESK(java.lang.String)[pri:0, instance:STUDY_TC.ADDDESKPAGE@3012646b]" started-at="2023-01-06T21:30:55 IST" name="ADD_DESK" data-provider="DeskData" finished-at="2023-01-06T21:30:55 IST" duration-ms="500" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[A1_01]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ADD_DESK -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:STUDY_TC.ADDDESKPAGE@3012646b]" started-at="2023-01-06T21:30:55 IST" name="logout" finished-at="2023-01-06T21:30:55 IST" duration-ms="315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:STUDY_TC.ADDDESKPAGE@3012646b]" started-at="2023-01-06T21:30:55 IST" name="Teardown" finished-at="2023-01-06T21:30:56 IST" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- STUDY_TC.ADDDESKPAGE -->
+      <class name="STUDY_TC.ADDSTUDENTPAGE">
+        <test-method is-config="true" signature="setup()[pri:0, instance:STUDY_TC.ADDSTUDENTPAGE@2e3967ea]" started-at="2023-01-06T21:30:42 IST" name="setup" finished-at="2023-01-06T21:30:45 IST" duration-ms="3650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="login()[pri:0, instance:STUDY_TC.ADDSTUDENTPAGE@2e3967ea]" started-at="2023-01-06T21:30:47 IST" name="login" finished-at="2023-01-06T21:30:49 IST" duration-ms="1762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="ADD_STUDENTS(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:STUDY_TC.ADDSTUDENTPAGE@2e3967ea]" started-at="2023-01-06T21:30:49 IST" name="ADD_STUDENTS" data-provider="LoginData" finished-at="2023-01-06T21:30:51 IST" duration-ms="2007" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PANDUREDDY]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9087878989]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[RAIJI@GMAIL.COM]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[BTECH]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[WGL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ADD_STUDENTS -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:STUDY_TC.ADDSTUDENTPAGE@2e3967ea]" started-at="2023-01-06T21:30:51 IST" name="logout" finished-at="2023-01-06T21:30:51 IST" duration-ms="315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:STUDY_TC.ADDSTUDENTPAGE@2e3967ea]" started-at="2023-01-06T21:30:51 IST" name="Teardown" finished-at="2023-01-06T21:30:52 IST" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- STUDY_TC.ADDSTUDENTPAGE -->
+      <class name="STUDY_TC.EDITSTUDENTPAGE">
+        <test-method is-config="true" signature="setup()[pri:0, instance:STUDY_TC.EDITSTUDENTPAGE@4a883b15]" started-at="2023-01-06T21:30:56 IST" name="setup" finished-at="2023-01-06T21:30:57 IST" duration-ms="1454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="login()[pri:0, instance:STUDY_TC.EDITSTUDENTPAGE@4a883b15]" started-at="2023-01-06T21:30:57 IST" name="login" finished-at="2023-01-06T21:31:00 IST" duration-ms="2389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="EDIT_STUDENT(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:STUDY_TC.EDITSTUDENTPAGE@4a883b15]" started-at="2023-01-06T21:31:00 IST" name="EDIT_STUDENT" data-provider="EDITData" finished-at="2023-01-06T21:31:01 IST" duration-ms="1282" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SANVIREDDY]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7036553098]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SANVI@GMAIL.COM]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[BTECH]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[HYD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EDIT_STUDENT -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:STUDY_TC.EDITSTUDENTPAGE@4a883b15]" started-at="2023-01-06T21:31:01 IST" name="logout" finished-at="2023-01-06T21:31:01 IST" duration-ms="354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:STUDY_TC.EDITSTUDENTPAGE@4a883b15]" started-at="2023-01-06T21:31:01 IST" name="Teardown" finished-at="2023-01-06T21:31:01 IST" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- STUDY_TC.EDITSTUDENTPAGE -->
+      <class name="STUDY_TC.EDITDESKPAGE">
+        <test-method is-config="true" signature="setup()[pri:0, instance:STUDY_TC.EDITDESKPAGE@25641d39]" started-at="2023-01-06T21:31:01 IST" name="setup" finished-at="2023-01-06T21:31:03 IST" duration-ms="1433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="login()[pri:0, instance:STUDY_TC.EDITDESKPAGE@25641d39]" started-at="2023-01-06T21:31:03 IST" name="login" finished-at="2023-01-06T21:31:04 IST" duration-ms="1423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="EDITDESK()[pri:0, instance:STUDY_TC.EDITDESKPAGE@25641d39]" started-at="2023-01-06T21:31:04 IST" name="EDITDESK" finished-at="2023-01-06T21:31:05 IST" duration-ms="1002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EDITDESK -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:STUDY_TC.EDITDESKPAGE@25641d39]" started-at="2023-01-06T21:31:05 IST" name="logout" finished-at="2023-01-06T21:31:06 IST" duration-ms="1096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:STUDY_TC.EDITDESKPAGE@25641d39]" started-at="2023-01-06T21:31:06 IST" name="Teardown" finished-at="2023-01-06T21:31:07 IST" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- STUDY_TC.EDITDESKPAGE -->
+      <class name="STUDY_TC.DELETESTUDENTPAGE">
+        <test-method is-config="true" signature="setup()[pri:0, instance:STUDY_TC.DELETESTUDENTPAGE@5824a83d]" started-at="2023-01-06T21:31:17 IST" name="setup" finished-at="2023-01-06T21:31:19 IST" duration-ms="1663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="login()[pri:0, instance:STUDY_TC.DELETESTUDENTPAGE@5824a83d]" started-at="2023-01-06T21:31:19 IST" name="login" finished-at="2023-01-06T21:31:20 IST" duration-ms="1005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="DELETESTUDENT()[pri:0, instance:STUDY_TC.DELETESTUDENTPAGE@5824a83d]" started-at="2023-01-06T21:31:20 IST" name="DELETESTUDENT" finished-at="2023-01-06T21:31:20 IST" duration-ms="357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DELETESTUDENT -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:STUDY_TC.DELETESTUDENTPAGE@5824a83d]" started-at="2023-01-06T21:31:20 IST" name="logout" finished-at="2023-01-06T21:31:21 IST" duration-ms="428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:STUDY_TC.DELETESTUDENTPAGE@5824a83d]" started-at="2023-01-06T21:31:21 IST" name="Teardown" finished-at="2023-01-06T21:31:21 IST" duration-ms="161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- STUDY_TC.DELETESTUDENTPAGE -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

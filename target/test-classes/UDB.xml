@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+
+<listener class-name="STUDY_UTILITY.EXTENT_REPORTS"></listener>
+
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+        <class name="STUDY_TC.ADDSTUDENTPAGE"/>
+         <class name="STUDY_TC.ADDDESKPAGE"/>
+     <!--  <class name="STUDY_TC.ASSIGNTASKPAGE"/>  -->
+        <class name="STUDY_TC.EDITSTUDENTPAGE"/>
+           <class name="STUDY_TC.EDITDESKPAGE"/>
+          <!-- <class name="STUDY_TC.UNASSIGNTASKPAGE"/>  -->  
+            <class name="STUDY_TC.VIEWSTUDENTPAGE"/>
+             <class name="STUDY_TC.DELETESTUDENTPAGE"/>
+             <class name="STUDY_TC.DELETEDESKPAGE"/>
+           
+             
+         
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
